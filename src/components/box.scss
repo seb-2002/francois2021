@@ -5,20 +5,13 @@
   font-size: 5rem;
   text-align: left;
   position: relative;
-  &--notSelected {
+  &--notSelected,
+  &--flipside--notSelected {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    .downArrow {
-      color: grey;
-      opacity: 0;
-    }
-    &:hover {
-      .downArrow {
-        opacity: 1;
-      }
-    }
   }
+
   &:last-child {
     border-bottom: 6px solid black;
   }
@@ -38,6 +31,17 @@
   &--selected {
     border: none;
     border-bottom: 3px solid black;
+  }
+}
+
+.downArrow {
+  color: grey;
+  opacity: 0;
+}
+
+.box--notSelected:hover {
+  .downArrow {
+    opacity: 1;
   }
 }
 

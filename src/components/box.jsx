@@ -7,7 +7,8 @@ function Box (props) {
   const {selected, content, title, onClick, id} = props;
   const {flipside} = content;
   const boxClass = classNames("box",
-  {"box--notSelected": !selected},
+  {"box--notSelected": !selected && !flipside},
+  {"box--flipside--notSelected": flipside && !selected},
    {"box--selected" : selected},
   {"box--flipside": flipside && selected} );
 
