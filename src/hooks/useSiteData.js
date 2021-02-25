@@ -9,10 +9,12 @@ export default function useSiteData(initialData) {
   }
 
   function transformInitialData(initialData) {
-    const transformedData = initialData.boxes.map((content) => {
+    let transformedData = initialData.boxes.map((content) => {
       return { ...content, selected: false };
     });
-    return { boxes: [...transformedData] };
+    return { ...initialData, boxes: [...transformedData] };
+    // return { boxes: [...transformedData] };
+    // return transformedData;
   }
 
   useEffect(() => {

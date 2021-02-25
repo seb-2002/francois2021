@@ -1,4 +1,8 @@
 const initialData = {
+  imgHome: {
+    src: "./img/footer_img.png",
+    alt: "the image on the home page",
+  },
   boxes: [
     {
       title: "Francois Bouvier",
@@ -73,7 +77,7 @@ const initialData = {
       content: {
         show: "Cirque les Residus",
         header:
-          "spectacle queer familiale pour extérieur -- queer family show for outside",
+          "spectacle queer familial pour extérieur -- queer family show for outside",
         img: "./img/les_residus.jpg",
         alt:
           "A figure, wearing black, photographed in the process of falling onto a blue mat",

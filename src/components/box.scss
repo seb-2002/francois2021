@@ -5,6 +5,20 @@
   font-size: 5rem;
   text-align: left;
   position: relative;
+  &--notSelected {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .downArrow {
+      color: grey;
+      opacity: 0;
+    }
+    &:hover {
+      .downArrow {
+        opacity: 1;
+      }
+    }
+  }
   &:last-child {
     border-bottom: 6px solid black;
   }
@@ -27,9 +41,25 @@
   }
 }
 
-@media only screen and (min-width: 375px) and (min-height: 812px),
-  (min-width: 411px) {
-  .box:last-child {
-    border-bottom: 3px solid black;
+// @media only screen and (min-width: 375px) and (min-height: 812px),
+//   (min-width: 411px) {
+//   .box:last-child {
+//     border-bottom: 3px solid black;
+//   }
+// }
+
+@media only screen and (min-height: 1024px) and (orientation: portrait) {
+  .box {
+    h2 {
+      font-size: 7rem;
+    }
+  }
+}
+
+@media only screen and (min-height: 1366px) and (orientation: portrait) {
+  .box {
+    h2 {
+      font-size: 9rem;
+    }
   }
 }

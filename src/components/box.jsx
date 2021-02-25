@@ -1,11 +1,14 @@
 import './box.scss';
 import BoxContent from './boxContent';
+import {AiOutlineArrowDown} from 'react-icons/ai'
 const classNames = require('classnames') 
 
 function Box (props) {
   const {selected, content, title, onClick, id} = props;
   const {flipside} = content;
-  const boxClass = classNames("box", {"box--selected" : selected},
+  const boxClass = classNames("box",
+  {"box--notSelected": !selected},
+   {"box--selected" : selected},
   {"box--flipside": flipside && selected} );
 
   if(selected){
@@ -21,6 +24,7 @@ function Box (props) {
     return (
       <div className={boxClass} onClick={()=>onClick(id)}>
         <h2 className="boxTitle">{title}</h2>
+        <AiOutlineArrowDown class="downArrow"/>
       </div>
     )
 
