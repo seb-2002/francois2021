@@ -1,0 +1,12 @@
+.credits {
+  margin: auto 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+span {
+  .role {
+    font-weight: bold;
+  }
+  font-size: 1rem;
+}
