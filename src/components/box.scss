@@ -21,10 +21,14 @@
   &--flipside {
     background-color: black;
   }
+  &--selected {
+    border: none;
+    border-bottom: 3px solid black;
+  }
 }
 
 @media only screen and (min-width: 375px) and (min-height: 812px),
-  (min-width: 412px) {
+  (min-width: 411px) {
   .box:last-child {
     border-bottom: 3px solid black;
   }
