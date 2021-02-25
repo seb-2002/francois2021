@@ -1,5 +1,6 @@
 import './boxContent.scss';
 import Credits from './credits';
+import {AiOutlineArrowDown} from 'react-icons/ai'
 
 import {useState} from 'react';
 
@@ -65,9 +66,12 @@ function BoxContent(props) {
    } 
 
    {show &&
+   <div className="selectedTitle">
     <h2 onClick={()=>clickHandler(id)}>
       {show}
     </h2>
+    <AiOutlineArrowDown/>
+    </div>
    }
 
   
@@ -79,7 +83,9 @@ function BoxContent(props) {
    }
 
   {img && <img className="principle_img" src={img} alt={alt}/>}
+   <div className="boxContent--body">
 
+   
   {header &&
     <p className="header">
       {header}
@@ -112,10 +118,13 @@ function BoxContent(props) {
   </p>
   }
 
-  {video && videoTitle && 
-    <p onClick={() => toggleVideo()}className="videoTitle">
-    {videoTitle} (...)
-    </p>
+  {video && videoTitle &&
+  <p className="videoTitle">
+
+    <span onClick={() => toggleVideo()}className="button">
+    {videoTitle}
+    </span>
+  </p> 
   }
   
   {video && videoTitle && showVideo &&
@@ -138,6 +147,8 @@ function BoxContent(props) {
     (en) {bioEn}
   </p>
   }
+
+  </div>
     </>
   )
 }

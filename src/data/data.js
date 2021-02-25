@@ -17,7 +17,7 @@ const initialData = {
         alt:
           "A photograph of the artist in a minidress made of bubblewrap, back to the camera, facing a blue projection screen with the words 'no signal' written on it",
         video: "https://player.vimeo.com/video/346746408",
-        videoTitle: "Une caresse animée trailer",
+        videoTitle: "trailer",
         introTextFr: "Lorem ipsum dolor",
         textFr:
           "sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis at consectetur lorem donec. Tempor orci eu lobortis elementum nibh tellus molestie nunc. Et leo duis ut diam quam nulla porttitor. Id cursus metus aliquam eleifend mi in. Interdum velit laoreet id donec ultrices tincidunt. Massa sed elementum tempus egestas sed sed risus pretium. Potenti nullam ac tortor vitae purus faucibus ornare suspendisse. Urna cursus eget nunc scelerisque viverra mauris in aliquam sem. Quisque id diam vel quam elementum. Augue interdum velit euismod in pellentesque massa placerat. Nulla facilisi nullam vehicula ipsum. Magna sit amet purus gravida quis blandit turpis. Consectetur adipiscing elit ut aliquam purus sit amet luctus venenatis. Vestibulum morbi blandit cursus risus at ultrices mi tempus imperdiet. Pellentesque elit eget gravida cum sociis.",
