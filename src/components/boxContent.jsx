@@ -64,9 +64,13 @@ function BoxContent(props) {
 
    {flipside && 
    <h2 className="flipside" onClick={()=>clickHandler(id)}>{flipside} </h2>
-   } 
-   {contact && 
-   <h2 className="flipside" >{contact} </h2>
+   }
+
+   {contact &&
+   <> 
+   <h2 className="flipside contact--phone" >{contact.name}<br></br>@{contact.domain}</h2>
+   <h2 className="flipside contact--desktop" >{contact.name}@{contact.domain}</h2>
+   </>
    } 
 
    {show &&

@@ -124,7 +124,10 @@ const initialData = {
     {
       title: "contact",
       content: {
-        contact: "bouvi.francois@gmail.com",
+        contact: {
+          name: "bouvi.francois",
+          domain: "gmail.com",
+        },
       },
     },
   ],
