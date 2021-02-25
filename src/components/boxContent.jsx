@@ -21,7 +21,8 @@ function BoxContent(props) {
     status, 
     show, 
     bioFr, 
-    bioEn
+    bioEn,
+    contact,
       } = content
 
 
@@ -64,10 +65,13 @@ function BoxContent(props) {
    {flipside && 
    <h2 className="flipside" onClick={()=>clickHandler(id)}>{flipside} </h2>
    } 
+   {contact && 
+   <h2 className="flipside" >{contact} </h2>
+   } 
 
    {show &&
-   <div className="selectedTitle">
-    <h2 onClick={()=>clickHandler(id)}>
+   <div className="selectedTitle" onClick={()=>clickHandler(id)}>
+    <h2 >
       {show}
     </h2>
     <AiOutlineArrowDown/>
@@ -77,9 +81,12 @@ function BoxContent(props) {
   
 
    {content.title &&
-    <h2 onClick={()=>clickHandler(id)}>
+      <div onClick={()=>clickHandler(id)} className="selectedTitle">
+    <h2 >
       {content.title}
     </h2>
+    <AiOutlineArrowDown/>
+    </div>
    }
 
   {img && <img className="principle_img" src={img} alt={alt}/>}
@@ -137,13 +144,13 @@ function BoxContent(props) {
 
 
   {bioFr &&
-  <p className="bio">
+  <p className="bio bioFr">
     (fr) {bioFr}
   </p>
   }
 
   {bioEn &&
-  <p className="bio">
+  <p className="bio bioEn">
     (en) {bioEn}
   </p>
   }

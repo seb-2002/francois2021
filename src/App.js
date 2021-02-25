@@ -1,5 +1,6 @@
 import "./App.css";
 import BoxList from "./components/boxList";
+import Copyright from "./components/copyright";
 import initialData from "./data/data";
 import useSiteData from "./hooks/useSiteData";
 
@@ -9,6 +10,7 @@ function App() {
   return (
     <div className="App">
       {data && <BoxList clickHandler={boxClickHandler} boxes={data.boxes} />}
+      <Copyright />
     </div>
   );
 }

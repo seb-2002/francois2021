@@ -48,12 +48,12 @@ const initialData = {
         img: "./img/i_miss_grandma.png",
         alt:
           "A figure, wearing black, photographed in the process of falling onto a blue mat",
-        // video: "here's a vimeo link",
+        video: "https://player.vimeo.com/video/459501770/f50b985e19",
+        videoTitle: "trailer",
         introTextFr: "Quel type de corps apparaît",
         textFr:
           "à la convergence des catastrophes climatiques et de la révolution digitale? Le corps qui ne fonctionne plus, immobilisé, fixé, paralysé; un corps flou, queer et sans cadre. Dans I miss Grandma so sad, c’est ce corps qui entre en scène. Naviguant des paysages virtuels et sonores changeants, ainsi qu’une scénographie de poésie et d’objets, il est engagé dans un processus de devenir qui le dépasse, sans cesse interrompu, en train de chuter, d’apparaître et de disparaître. De ce jeu résulte un spectacle intimiste et ironique à la fois, mêlant humour, cynisme et sincérité. Face à la « nature » changeante et un avenir incertain, pris entre les échos du numérique et les objets devenus obstacles, un corps découvre des repères mobiles pour recomposer un monde habitable.",
         textEn: "This is the content about une caresse animée",
-        // credits: "Here are the credits",
         status:
           "rentre en période de production autonme 2021 -- production period autumn 2021",
         credits: [
@@ -77,14 +77,14 @@ const initialData = {
         img: "./img/les_residus.jpg",
         alt:
           "A figure, wearing black, photographed in the process of falling onto a blue mat",
-        // video: "here's a vimeo link",
+        video: "https://player.vimeo.com/video/459501770/f50b985e19",
+        videoTitle: "trailer",
         introTextFr: "Cirque les résidus est une",
         textFr:
-          "collaboration entre François Bouvier, acrobate, et Sandrine Masse-Savard, musicienne.Depuis 2018, le duo crée et adapte des petites formes de spectacle en extérieur. Utilisant acrobatie, danse, fil de fer, poésie et musique live, le duo invente un univers ludique et invitant, afin de raconter l'histoire d'une rencontre et de proposer une attitude d'ouverture vers les autres. L'histoire d'une rencontre entre deux individus, qui apprennent à se connaître et à partager un espace, acceptant l'autre dans sa différence pour tisser des liens et bâtir une communauté.",
+          "collaboration entre François Bouvier, acrobate, et Sandrine Masse-Savard, musicienne. Depuis 2018, le duo crée et adapte des petites formes de spectacle en extérieur. Utilisant acrobatie, danse, fil de fer, poésie et musique live, le duo invente un univers ludique et invitant, afin de raconter l'histoire d'une rencontre et de proposer une attitude d'ouverture vers les autres. L'histoire d'une rencontre entre deux individus, qui apprennent à se connaître et à partager un espace, acceptant l'autre dans sa différence pour tisser des liens et bâtir une communauté.",
         introTextEn: "Cirque les résidus is",
         textEn:
           "a 25 minutes circus performance that combines tight-wire, floor acrobatics, poetry, story-telling, quick-change, and live-music to present an uplifting proposal. The show follows the intertwining stories of two characters that meet and learn to share a common space, respecting each other in their differences, making kin and building a community.",
-        // credits: "Here are the credits",
         status: "prête à tourner -- ready for touring",
         credits: [
           ["création -- creation", "Francois Bouvier + Sandrine Masse-Savard"],
@@ -100,14 +100,14 @@ const initialData = {
     {
       title: "media",
       content: {
-        title: "media",
+        flipside: "à venir -- coming soon",
       },
     },
 
     {
       title: "agenda",
       content: {
-        title: "agenda",
+        flipside: "à venir -- coming soon",
       },
     },
 
@@ -115,8 +115,16 @@ const initialData = {
       title: "bio",
       content: {
         title: "bio",
-        bioFr: "Né à Gatineau, grandit après.",
-        bioEn: "Born in Gatineau, then he grew up.",
+        bioFr:
+          "Originaire de Gatineau, François a une pratique acrobatique depuis l’âge de cinq ans. Dans ses recherches actuelles, il s’intéresse à la cohabitation de plusieurs éléments sur scène (corps acrobatique, images digitales  et paysages, poésie, récits collectifs et histoires personnelles). Par un travail d’improvisation, François collectionne les rencontres entre ces éléments sur scène, tissant un réseau sensible de liens et de répercussions, transformant les objets en images et le corps en histoire.",
+        bioEn:
+          "Originally from Gatineau, François has practiced acrobatics since the age of 5. In his most recent work, he is interested in what emerges when different elements—the acrobatic body, landscapes and digital imagery, personal and collective stories, poetry—are invited to cohabit a space. Working through improvisation, François collects encounters between these elements, weaving a network of relations and repercussions, transforming objects into images and the body into a story.",
+      },
+    },
+    {
+      title: "contact",
+      content: {
+        contact: "bouvi.francois@gmail.com",
       },
     },
   ],
