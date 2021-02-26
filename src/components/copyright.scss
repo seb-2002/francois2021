@@ -1,9 +1,34 @@
 .copyright {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   &--text {
     font-size: 1rem;
+    margin-bottom: 0.5rem;
+    margin-top: 0.2rem;
+    &2 {
+      margin-top: 0;
+    }
+    &-bold {
+      font-weight: bold;
+    }
   }
   &--link {
     text-decoration: none;
     color: black;
+  }
+}
+
+.separator {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .separator {
+    display: inline;
+  }
+  .copyright {
+    flex-direction: row;
+    align-items: center;
   }
 }
