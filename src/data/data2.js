@@ -1,3 +1,12 @@
+<iframe
+  src="https://player.vimeo.com/video/509609615"
+  width="640"
+  height="360"
+  frameborder="0"
+  allow="autoplay; fullscreen; picture-in-picture"
+  allowfullscreen
+></iframe>;
+
 const initialData = {
   imgHome: {
     src: "./img/footer_img.png",
@@ -19,9 +28,9 @@ const initialData = {
         alt:
           "A photograph of the artist in a minidress made of bubblewrap, back to the camera, facing a blue projection screen with the words 'no signal' written on it",
         header:
-          "installation numérique et de performance -- digital performance installation",
+          "performance et installation numérique -- digital performance installation",
         statusEn: "premiere 05/2021 : ready for touring",
-        statusFr: "première 05/2021 : prête à tourner",
+        statusFr: "première 05/2021 : prêt à tourner",
         video: "https://player.vimeo.com/video/459501770",
         videoTitle: "trailer",
         introTextFr: "Des fenêtres vidéo s’ouvrent et se ferment dans",
@@ -33,7 +42,7 @@ const initialData = {
         credits: [
           [
             "création et interprétation -- creation and interpretation",
-            "Francois Bouvier",
+            "François Bouvier",
           ],
           ["musique -- music", "Danilo de Campos Pacheco"],
           [
@@ -49,7 +58,7 @@ const initialData = {
       content: {
         show: "I miss grandma so sad",
         header:
-          "solo de 45 min pour théatre -- 45-min solo performance for the black box",
+          "solo de 45 min -- 45-min solo performance",
         img: "./img/i_miss_grandma.png",
         alt:
           "A figure, wearing black, photographed in the process of falling onto a blue mat",
@@ -59,12 +68,12 @@ const initialData = {
         textFr:
           "à la convergence des catastrophes climatiques et de la révolution digitale? Le corps qui ne fonctionne plus, immobilisé, fixé, paralysé; un corps flou, queer et sans cadre. Dans I miss Grandma so sad, c’est ce corps qui entre en scène. Naviguant des paysages virtuels et sonores changeants, ainsi qu’une scénographie de poésie et d’objets, il est engagé dans un processus de devenir qui le dépasse, sans cesse interrompu, en train de chuter, d’apparaître et de disparaître. De ce jeu résulte un spectacle intimiste et ironique à la fois, mêlant humour, cynisme et sincérité. Face à la « nature » changeante et un avenir incertain, pris entre les échos du numérique et les objets devenus obstacles, un corps découvre des repères mobiles pour recomposer un monde habitable.",
         textEn: "This is the content about une caresse animée",
-        statusFr: "rentre en période de production autonme 2021",
-        statusEn: "production period autumn 2021",
+        statusFr: "entre en période de production à l'autonme 2021",
+        statusEn: "enters production period autumn 2021",
         credits: [
           [
             "création et interprétation -- creation and interpretation",
-            "Francois Bouvier",
+            "François Bouvier",
           ],
           ["dramaturge -- dramaturg", "Sebastian Kann"],
           ["oeil extérieur -- outside eye", "Peter James"],
@@ -74,26 +83,26 @@ const initialData = {
     },
 
     {
-      title: "Cirque les Residus",
+      title: "Cirque les résidus",
       content: {
-        show: "Cirque les Residus",
+        show: "Cirque les résidus",
         header:
-          "spectacle queer familial pour extérieur -- queer family show for outside",
+          "spectacle en extérieur -- outdoor space performance",
         img: "./img/les_residus.jpg",
         alt:
-          "A figure, wearing black, photographed in the process of falling onto a blue mat",
+          "A landscape in daylight, a blue camping mattress in the middle surrounded by words on the ground, a figure in the back placing props on the ground. The scene is surrounded by pine trees.",
         video: "https://player.vimeo.com/video/363546117",
         videoTitle: "trailer",
         introTextFr: "Cirque les résidus est une",
         textFr:
-          "collaboration entre François Bouvier, acrobate, et Sandrine Masse-Savard, musicienne. Depuis 2018, le duo crée et adapte des petites formes de spectacle en extérieur. Utilisant acrobatie, danse, fil de fer, poésie et musique live, le duo invente un univers ludique et invitant, afin de raconter l'histoire d'une rencontre et de proposer une attitude d'ouverture vers les autres. L'histoire d'une rencontre entre deux individus, qui apprennent à se connaître et à partager un espace, acceptant l'autre dans sa différence pour tisser des liens et bâtir une communauté.",
+          "collaboration entre François Bouvier, acrobate, et Sandrine Masse-Savard, musicienne. Depuis 2018, le duo crée et adapte des petites formes de spectacle en extérieur. Utilisant acrobatie, danse, fil de fer, poésie et musique live, le duo invente un univers ludique et invitant, afin de raconter l'histoire d'une rencontre et de proposer une attitude d'ouverture vers les autres. Deux individus, qui apprennent à se connaître et à partager un espace, acceptent l'autre dans sa différence et apprennent à tisser des liens pour bâtir une communauté.",
         introTextEn: "Cirque les résidus is",
         textEn:
-          "a 25 minutes circus performance that combines tight-wire, floor acrobatics, poetry, story-telling, quick-change, and live-music to present an uplifting proposal. The show follows the intertwining stories of two characters that meet and learn to share a common space, respecting each other in their differences, making kin and building a community.",
-        statusFr: "prête à tourner",
+          "a 25 minutes circus performance that combines tight-wire, floor acrobatics, poetry, story-telling, quick-change, and live-music to present an uplifting proposal. The show follows the intertwining stories of two characters that meet and learn to share a common space, respect each other in their differences. Cirque les résidus is a story of making kin and building a community.",
+        statusFr: "prêt à tourner",
         statusEn: "ready for touring",
         credits: [
-          ["création -- creation", "Francois Bouvier + Sandrine Masse-Savard"],
+          ["création -- creation", "François Bouvier + Sandrine Masse-Savard"],
           ["musique -- music", "Sandrine Masse-Savard"],
           [
             "aide à la création -- creation help",

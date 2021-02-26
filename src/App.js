@@ -2,7 +2,7 @@ import "./App.css";
 import BoxList from "./components/boxList";
 import Image from "./components/image";
 import Copyright from "./components/copyright";
-import initialData from "./data/data";
+import initialData from "./data/data2";
 import useSiteData from "./hooks/useSiteData";
 
 function App() {
