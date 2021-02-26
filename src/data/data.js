@@ -1,3 +1,12 @@
+<iframe
+  src="https://player.vimeo.com/video/509609615"
+  width="640"
+  height="360"
+  frameborder="0"
+  allow="autoplay; fullscreen; picture-in-picture"
+  allowfullscreen
+></iframe>;
+
 const initialData = {
   imgHome: {
     src: "./img/footer_img.png",
@@ -5,7 +14,7 @@ const initialData = {
   },
   boxes: [
     {
-      title: "Francois Bouvier",
+      title: "François Bouvier",
       content: {
         flipside: "Acrobate toi-même!",
       },
@@ -21,7 +30,7 @@ const initialData = {
         header:
           "installation numérique et de performance -- digital performance installation",
         status: "première 05/2021 : prête à tourner -- ready for touring",
-        video: "https://player.vimeo.com/video/459501770/f50b985e19",
+        video: "https://player.vimeo.com/video/459501770",
         videoTitle: "trailer",
         introTextFr: "Des fenêtres vidéo s’ouvrent et se ferment dans",
         textFr:
@@ -52,7 +61,7 @@ const initialData = {
         img: "./img/i_miss_grandma.png",
         alt:
           "A figure, wearing black, photographed in the process of falling onto a blue mat",
-        video: "https://player.vimeo.com/video/459501770/f50b985e19",
+        video: "https://player.vimeo.com/video/509609615",
         videoTitle: "trailer",
         introTextFr: "Quel type de corps apparaît",
         textFr:
@@ -81,7 +90,7 @@ const initialData = {
         img: "./img/les_residus.jpg",
         alt:
           "A figure, wearing black, photographed in the process of falling onto a blue mat",
-        video: "https://player.vimeo.com/video/459501770/f50b985e19",
+        video: "https://player.vimeo.com/video/363546117",
         videoTitle: "trailer",
         introTextFr: "Cirque les résidus est une",
         textFr:
