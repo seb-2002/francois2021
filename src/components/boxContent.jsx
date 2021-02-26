@@ -18,7 +18,8 @@ function BoxContent(props) {
     video, 
     videoTitle, 
     alt, 
-    status, 
+    statusEn,
+    statusFr, 
     show, 
     bioFr, 
     bioEn,
@@ -102,11 +103,7 @@ function BoxContent(props) {
       {header}
     </p>
   }
-  {status &&
-    <p className="status">
-      {status}
-    </p>
-  }
+
 
   {textFr && introTextFr && 
   <p className="introText" onClick={()=>toggleTextFr()}>
@@ -114,19 +111,35 @@ function BoxContent(props) {
     </p>}
 
    {textFr && showTextFr &&
-  <p className="text">
-    {textFr}
-  </p>
+   <div className="text">
+      <p className="text">
+        {textFr}
+      </p>
+    {statusFr &&
+      <p className="status">
+        {statusFr}
+      </p>
+    }
+   </div>
   }
 
-    {textEn && introTextEn && 
-    <p className="introText" onClick={()=>toggleTextEn()}>
+  {textEn && introTextEn && 
+    <p className="introText introText--En" onClick={()=>toggleTextEn()}>
       (en) {introTextEn} (...)
-      </p>}
+    </p>
+  }
+
   {textEn && showTextEn &&
-  <p className="text">
-    {textEn}
-  </p>
+    <div className="text">
+    <p className="text">
+      {textEn}
+    </p>
+    {statusEn &&
+      <p className="status">
+        {statusEn}
+      </p>
+    }
+    </div>
   }
 
   {video && videoTitle &&

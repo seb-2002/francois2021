@@ -29,7 +29,8 @@ const initialData = {
           "A photograph of the artist in a minidress made of bubblewrap, back to the camera, facing a blue projection screen with the words 'no signal' written on it",
         header:
           "installation numérique et de performance -- digital performance installation",
-        status: "première 05/2021 : prête à tourner -- ready for touring",
+        statusEn: "premiere 05/2021 : ready for touring",
+        statusFr: "première 05/2021 : prête à tourner",
         video: "https://player.vimeo.com/video/459501770",
         videoTitle: "trailer",
         introTextFr: "Des fenêtres vidéo s’ouvrent et se ferment dans",
@@ -67,8 +68,8 @@ const initialData = {
         textFr:
           "à la convergence des catastrophes climatiques et de la révolution digitale? Le corps qui ne fonctionne plus, immobilisé, fixé, paralysé; un corps flou, queer et sans cadre. Dans I miss Grandma so sad, c’est ce corps qui entre en scène. Naviguant des paysages virtuels et sonores changeants, ainsi qu’une scénographie de poésie et d’objets, il est engagé dans un processus de devenir qui le dépasse, sans cesse interrompu, en train de chuter, d’apparaître et de disparaître. De ce jeu résulte un spectacle intimiste et ironique à la fois, mêlant humour, cynisme et sincérité. Face à la « nature » changeante et un avenir incertain, pris entre les échos du numérique et les objets devenus obstacles, un corps découvre des repères mobiles pour recomposer un monde habitable.",
         textEn: "This is the content about une caresse animée",
-        status:
-          "rentre en période de production autonme 2021 -- production period autumn 2021",
+        statusFr: "rentre en période de production autonme 2021",
+        statusEn: "production period autumn 2021",
         credits: [
           [
             "création et interprétation -- creation and interpretation",
@@ -98,7 +99,8 @@ const initialData = {
         introTextEn: "Cirque les résidus is",
         textEn:
           "a 25 minutes circus performance that combines tight-wire, floor acrobatics, poetry, story-telling, quick-change, and live-music to present an uplifting proposal. The show follows the intertwining stories of two characters that meet and learn to share a common space, respecting each other in their differences, making kin and building a community.",
-        status: "prête à tourner -- ready for touring",
+        statusFr: "prête à tourner",
+        statusEn: "ready for touring",
         credits: [
           ["création -- creation", "Francois Bouvier + Sandrine Masse-Savard"],
           ["musique -- music", "Sandrine Masse-Savard"],
