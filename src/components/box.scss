@@ -41,11 +41,11 @@
   opacity: 0;
 }
 
-.box--notSelected:hover {
-  .downArrow {
-    opacity: 1;
-  }
-}
+// .box--notSelected:hover {
+//   .downArrow {
+//     opacity: 1;
+//   }
+// }
 
 // @media only screen and (min-width: 375px) and (min-height: 812px),
 //   (min-width: 411px) {
@@ -53,6 +53,14 @@
 //     border-bottom: 3px solid black;
 //   }
 // }
+
+@media only screen and (min-width: 415px) {
+  .box--notSelected:hover {
+    .downArrow {
+      opacity: 1;
+    }
+  }
+}
 
 @media only screen and (min-height: 1024px) and (orientation: portrait) {
   .box {

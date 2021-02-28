@@ -19,9 +19,6 @@
     padding-top: 0;
     padding-bottom: 0;
     border-bottom: 6px solid black;
-    svg {
-      display: inline;
-    }
   }
 }
 
@@ -125,5 +122,9 @@
     &:hover {
       font-size: 3.1rem;
     }
+  }
+
+  .selectedTitle:hover svg {
+    display: inline;
   }
 }
