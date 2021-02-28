@@ -58,6 +58,39 @@ function BoxContent(props) {
     setState(newState);
   }
 
+  // function toggleAll() {
+  //  if (textEn && introTextEn && showTextEn && showTextFr && showVideo && textFr && introTextFr && video && videoTitle) {
+  //    setState(initialState)
+  //  } 
+  //  else if (textEn && introTextEn && showTextEn && showTextFr && textFr && introTextFr && !video && !videoTitle) {
+  //    setState(initialState)
+  //  } 
+  //  else if (textEn && introTextEn && showTextEn && showVideo  && video && videoTitle && !textFr && ! introTextFr) {
+  //    setState(initialState)
+  //  } 
+  //  else if (showTextFr && showVideo && textFr && introTextFr && video && videoTitle && !textEn && !introTextEn) {
+  //    setState(initialState)
+  //  } 
+  //  else if (showTextFr && textFr && introTextFr && !video && !videoTitle && !textEn && !introTextEn) {
+  //    setState(initialState)
+  //  } 
+  //  else if (showVideo && !textFr && !introTextFr && video && videoTitle && !textEn && !introTextEn) {
+  //    setState(initialState)
+  //  } 
+  //  else if (showTextEn && textEn && introTextEn && !video && !videoTitle && !textFr && !introTextFr) {
+  //    setState(initialState)
+  //  } 
+   
+  //  else {
+  //    const newState = {
+  //      showTextEn: textEn && introTextEn ? true : false,
+  //      showTextFr: textFr && introTextFr ? true : false,
+  //      showVideo: video && videoTitle ? true : false,
+  //    }
+  //    setState(newState);
+  //  }
+  // }
+
 
 
   return (

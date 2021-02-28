@@ -1,12 +1,3 @@
-<iframe
-  src="https://player.vimeo.com/video/509609615"
-  width="640"
-  height="360"
-  frameborder="0"
-  allow="autoplay; fullscreen; picture-in-picture"
-  allowfullscreen
-></iframe>;
-
 const initialData = {
   imgHome: {
     src: "./img/footer_img.png",
@@ -57,8 +48,7 @@ const initialData = {
       title: "I miss grandma so sad",
       content: {
         show: "I miss grandma so sad",
-        header:
-          "solo de 45 min -- 45-min solo performance",
+        header: "solo de 45 min -- 45-min solo performance",
         img: "./img/i_miss_grandma.png",
         alt:
           "A figure, wearing black, photographed in the process of falling onto a blue mat",
@@ -86,8 +76,7 @@ const initialData = {
       title: "Cirque les résidus",
       content: {
         show: "Cirque les résidus",
-        header:
-          "spectacle en extérieur -- outdoor space performance",
+        header: "spectacle en extérieur -- outdoor space performance",
         img: "./img/les_residus.jpg",
         alt:
           "A landscape in daylight, a blue camping mattress in the middle surrounded by words on the ground, a figure in the back placing props on the ground. The scene is surrounded by pine trees.",
