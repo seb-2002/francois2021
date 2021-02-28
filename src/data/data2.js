@@ -24,12 +24,12 @@ const initialData = {
         statusFr: "première 05/2021 : prêt à tourner",
         video: "https://player.vimeo.com/video/459501770",
         videoTitle: "trailer",
-        introTextFr: "Des fenêtres vidéo s’ouvrent et se ferment dans",
+        introTextFr: "Des fenêtres vidéo s’ouvrent",
         textFr:
-          "une succession et une superposition d’espaces. Un “je”, s’adressant à sa webcam, s’imagine des mondes habitables pour fuir le chaos destructeur qui l’entoure. Comme un appel dans la nuit, je te dis que je t’aime pour établir ma présence. Pour nous réunir je suis devenu pixel. Depuis que le monde a basculé, j’arrive à rester au présent grâce à cette course à relais d’images et d’espaces. Comme pour poser un geste concret dans un monde de plus en plus informe.",
-        introTextEn: "Video windows open and close in",
+          "et se ferment dans une succession et une superposition d’espaces. Un “je”, s’adressant à sa webcam, s’imagine des mondes habitables pour fuir le chaos destructeur qui l’entoure. Comme un appel dans la nuit, je te dis que je t’aime pour établir ma présence. Pour nous réunir je suis devenu pixel. Depuis que le monde a basculé, j’arrive à rester au présent grâce à cette course à relais d’images et d’espaces. Comme pour poser un geste concret dans un monde de plus en plus informe.",
+        introTextEn: "Video windows open",
         textEn:
-          "an overlap of spaces. A character, addressing the webcam, imagines habitable worlds in order to escape the surrounding chaos. Like a calling at night, I tell you that I love you in order to feel my presence. To bring us together I have become pixels. Since this world has tipped over, I can stay in the present through this relay-course of images and spaces. As if to hook yourself to a moving mass. As if to do something real in a world that’s more and more shapeless.",
+          " and close in an overlap of spaces. A character, addressing the webcam, imagines habitable worlds in order to escape the surrounding chaos. Like a calling at night, I tell you that I love you in order to feel my presence. To bring us together I have become pixels. Since this world has tipped over, I can stay in the present through this relay-course of images and spaces. As if to hook yourself to a moving mass. As if to do something real in a world that’s more and more shapeless.",
         credits: [
           [
             "création et interprétation -- creation and interpretation",
@@ -57,9 +57,9 @@ const initialData = {
         introTextFr: "Quel type de corps apparaît",
         textFr:
           "à la convergence des catastrophes climatiques et de la révolution digitale? Le corps qui ne fonctionne plus, immobilisé, fixé, paralysé; un corps flou, queer et sans cadre. Dans I miss Grandma so sad, c’est ce corps qui entre en scène. Naviguant des paysages virtuels et sonores changeants, ainsi qu’une scénographie de poésie et d’objets, il est engagé dans un processus de devenir qui le dépasse, sans cesse interrompu, en train de chuter, d’apparaître et de disparaître. De ce jeu résulte un spectacle intimiste et ironique à la fois, mêlant humour, cynisme et sincérité. Face à la « nature » changeante et un avenir incertain, pris entre les échos du numérique et les objets devenus obstacles, un corps découvre des repères mobiles pour recomposer un monde habitable.",
-        // introTextEn: "What kind of body emerges ",
-        // textEn:
-        //   "at the intersection of climate catastrophe and digital revolution? The stuttering body, the stumbling body, the non-functioning body, the still body, the undefined body, the experimental body, the queer body——in I miss grandma so sad, we witness this unruly body at work, appearing and disappearing at the margins of the stage. Navigating shifting virtual and sonic landscapes, constantly re-configuring (and being re-configured by) a space densely populated with objects and signs, he is engaged in a relentless process of becoming, going nowhere fast. At once intimate and ironic, mixing humour, cynicism, and sincerity, I miss grandma so sad asks how to bear with the changing status of 'nature' and its entanglement with our uncertain collective future. Caught between the spectral echos of the digital and the obstacles thrown up by an increasingly boisterious worldly materiality, the question is: how to regain our mobile bearings? And how might we re-compose liveable worlds?",
+        introTextEn: "What kind of body emerges ",
+        textEn:
+          "at the intersection of climate catastrophe and digital revolution? The stuttering body, the stumbling body, the non-functioning body, the still body, the undefined body, the experimental body, the queer body——in I miss grandma so sad, we witness this unruly body at work, appearing and disappearing at the margins of the stage. Navigating shifting virtual and sonic landscapes, constantly re-configuring (and being re-configured by) a space densely populated with objects and signs, he is engaged in a relentless process of becoming, going nowhere fast. At once intimate and ironic, mixing humour, cynicism, and sincerity, I miss grandma so sad asks how to bear with the changing status of 'nature' and its entanglement with our uncertain collective future. Caught between the spectral echos of the digital and the obstacles thrown up by an increasingly boisterious worldly materiality, the question is: how to regain our mobile bearings? And how might we re-compose liveable worlds?",
         statusFr: "entre en période de production à l'autonme 2021",
         statusEn: "enters production period autumn 2021",
         credits: [
