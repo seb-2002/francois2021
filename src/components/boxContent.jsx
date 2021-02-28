@@ -134,15 +134,12 @@ function BoxContent(props) {
   }
 
 
-  {textFr && introTextFr && !showTextFr &&
+  {textFr && introTextFr &&
   <p className="introText" onClick={()=>toggleTextFr()}>
-    (fr) {introTextFr} (...) <AiOutlineArrowDown className="arrow"/>
+    (fr) {introTextFr} <span className="blue">(...)</span>
     </p>}
 
-  {textFr && introTextFr && showTextFr &&
-  <p className="introText" onClick={()=>toggleTextFr()}>
-    (fr) {introTextFr} (...) <AiOutlineArrowDown className="arrowInverse"/>
-    </p>}
+  
 
    {textFr && showTextFr &&
    <div className="text">
@@ -159,7 +156,7 @@ function BoxContent(props) {
 
   {textEn && introTextEn && 
     <p className="introText introText--En" onClick={()=>toggleTextEn()}>
-      (en) {introTextEn} (...)
+      (en) {introTextEn} <span className="blue">(...)</span>
     </p>
   }
 

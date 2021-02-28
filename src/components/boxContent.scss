@@ -71,22 +71,14 @@
   margin-bottom: 0;
   font-size: 2rem;
   cursor: pointer;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  svg {
-    display: none;
+  span {
+    font-size: 2rem;
   }
   &:hover {
     font-style: italic;
     font-size: 2.1rem;
-    svg {
-      display: inline;
-      &.arrowInverse {
-        transform: rotate(180deg);
-      }
-    }
   }
+
   &--En {
     margin-top: 1.5rem;
   }
@@ -116,6 +108,10 @@
   }
 }
 
+.blue {
+  color: blue;
+}
+
 @media only screen and (min-width: 768px) {
   .contact {
     &--desktop {
@@ -130,6 +126,9 @@
 @media only screen and (min-width: 415px) {
   .introText {
     font-size: 3rem;
+    span {
+      font-size: 3rem;
+    }
     &:hover {
       font-size: 3.1rem;
     }
