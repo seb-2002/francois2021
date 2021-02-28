@@ -136,7 +136,7 @@ function BoxContent(props) {
 
   {textFr && introTextFr &&
   <p className="introText" onClick={()=>toggleTextFr()}>
-    (fr) {introTextFr} <span className="blue">(...)</span>
+    (fr) {introTextFr} (<span className="blue">&nbsp;...&nbsp;</span>)
     </p>}
 
   
@@ -156,7 +156,7 @@ function BoxContent(props) {
 
   {textEn && introTextEn && 
     <p className="introText introText--En" onClick={()=>toggleTextEn()}>
-      (en) {introTextEn} <span className="blue">(...)</span>
+      (en) {introTextEn} (<span className="blue">&nbsp;...&nbsp;</span>)
     </p>
   }
 
