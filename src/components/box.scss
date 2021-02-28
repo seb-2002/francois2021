@@ -54,7 +54,7 @@
 //   }
 // }
 
-@media only screen and (min-width: 415px) {
+@media only screen and (min-width: 824px) and (orientation: landscape) {
   .box--notSelected:hover {
     .downArrow {
       opacity: 1;
