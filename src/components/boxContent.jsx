@@ -58,34 +58,30 @@ function BoxContent(props) {
     setState(newState);
   }
 
-  // function toggleAll() {
-  //  if (textEn && introTextEn && showTextEn && showTextFr && showVideo && textFr && introTextFr && video && videoTitle) {
-  //    setState(initialState)
+  function toggleAll() {
+   if (showTextEn || showTextFr || showVideo) {
+     setState(initialState)
+   } 
+   else {
+     const newState = {
+      //  showTextEn: textEn && introTextEn ? true : false,
+      showTextEn: true,
+       showTextFr: true,
+       showVideo: true,
+     }
+     setState(newState);
+   }
+  }
+  // function toggleAll(id) {
+  //  if (showTextEn || showTextFr || showVideo) {
+  //    clickHandler(id);
   //  } 
-  //  else if (textEn && introTextEn && showTextEn && showTextFr && textFr && introTextFr && !video && !videoTitle) {
-  //    setState(initialState)
-  //  } 
-  //  else if (textEn && introTextEn && showTextEn && showVideo  && video && videoTitle && !textFr && ! introTextFr) {
-  //    setState(initialState)
-  //  } 
-  //  else if (showTextFr && showVideo && textFr && introTextFr && video && videoTitle && !textEn && !introTextEn) {
-  //    setState(initialState)
-  //  } 
-  //  else if (showTextFr && textFr && introTextFr && !video && !videoTitle && !textEn && !introTextEn) {
-  //    setState(initialState)
-  //  } 
-  //  else if (showVideo && !textFr && !introTextFr && video && videoTitle && !textEn && !introTextEn) {
-  //    setState(initialState)
-  //  } 
-  //  else if (showTextEn && textEn && introTextEn && !video && !videoTitle && !textFr && !introTextFr) {
-  //    setState(initialState)
-  //  } 
-   
   //  else {
   //    const newState = {
-  //      showTextEn: textEn && introTextEn ? true : false,
-  //      showTextFr: textFr && introTextFr ? true : false,
-  //      showVideo: video && videoTitle ? true : false,
+  //     //  showTextEn: textEn && introTextEn ? true : false,
+  //     showTextEn: true,
+  //      showTextFr: true,
+  //      showVideo: true,
   //    }
   //    setState(newState);
   //  }
@@ -123,11 +119,11 @@ function BoxContent(props) {
     <h2 >
       {content.title}
     </h2>
-    <AiOutlineArrowDown/>
+    <AiOutlineArrowDown className="arrow"/>
     </div>
    }
 
-  {img && <img className="principle_img" src={img} alt={alt}/>}
+  {img && <img className="principle_img" onClick={()=>toggleAll()} src={img} alt={alt}/>}
    <div className="boxContent--body">
 
    
@@ -138,9 +134,14 @@ function BoxContent(props) {
   }
 
 
-  {textFr && introTextFr && 
+  {textFr && introTextFr && !showTextFr &&
   <p className="introText" onClick={()=>toggleTextFr()}>
-    (fr) {introTextFr} (...)
+    (fr) {introTextFr} (...) <AiOutlineArrowDown className="arrow"/>
+    </p>}
+
+  {textFr && introTextFr && showTextFr &&
+  <p className="introText" onClick={()=>toggleTextFr()}>
+    (fr) {introTextFr} (...) <AiOutlineArrowDown className="arrowInverse"/>
     </p>}
 
    {textFr && showTextFr &&

@@ -57,7 +57,9 @@ const initialData = {
         introTextFr: "Quel type de corps apparaît",
         textFr:
           "à la convergence des catastrophes climatiques et de la révolution digitale? Le corps qui ne fonctionne plus, immobilisé, fixé, paralysé; un corps flou, queer et sans cadre. Dans I miss Grandma so sad, c’est ce corps qui entre en scène. Naviguant des paysages virtuels et sonores changeants, ainsi qu’une scénographie de poésie et d’objets, il est engagé dans un processus de devenir qui le dépasse, sans cesse interrompu, en train de chuter, d’apparaître et de disparaître. De ce jeu résulte un spectacle intimiste et ironique à la fois, mêlant humour, cynisme et sincérité. Face à la « nature » changeante et un avenir incertain, pris entre les échos du numérique et les objets devenus obstacles, un corps découvre des repères mobiles pour recomposer un monde habitable.",
-        textEn: "This is the content about une caresse animée",
+        // introTextEn: "What kind of body emerges ",
+        // textEn:
+        //   "at the intersection of climate catastrophe and digital revolution? The stuttering body, the stumbling body, the non-functioning body, the still body, the undefined body, the experimental body, the queer body——in I miss grandma so sad, we witness this unruly body at work, appearing and disappearing at the margins of the stage. Navigating shifting virtual and sonic landscapes, constantly re-configuring (and being re-configured by) a space densely populated with objects and signs, he is engaged in a relentless process of becoming, going nowhere fast. At once intimate and ironic, mixing humour, cynicism, and sincerity, I miss grandma so sad asks how to bear with the changing status of 'nature' and its entanglement with our uncertain collective future. Caught between the spectral echos of the digital and the obstacles thrown up by an increasingly boisterious worldly materiality, the question is: how to regain our mobile bearings? And how might we re-compose liveable worlds?",
         statusFr: "entre en période de production à l'autonme 2021",
         statusEn: "enters production period autumn 2021",
         credits: [
