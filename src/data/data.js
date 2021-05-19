@@ -22,11 +22,11 @@ const initialData = {
           "installation numérique et de performance -- digital performance installation",
         statusEn: "premiere 05/2021 : ready for touring",
         statusFr: "première 05/2021 : prête à tourner",
-        video: "https://player.vimeo.com/video/459501770",
+        video: "https://player.vimeo.com/video/546926710",
         videoTitle: "trailer",
         introTextFr: "Des fenêtres vidéo s’ouvrent et se ferment dans",
-        textFr:
-          "une succession et une superposition d’espaces. Un “je”, s’adressant à sa webcam, s’imagine des mondes habitables pour fuir le chaos destructeur qui l’entoure. Comme un appel dans la nuit, je te dis que je t’aime pour établir ma présence. Pour nous réunir je suis devenu pixel. Depuis que le monde a basculé, j’arrive à rester au présent grâce à cette course à relais d’images et d’espaces. Comme pour poser un geste concret dans un monde de plus en plus informe.",
+        // textFr:
+        //   "une succession et une superposition d’espaces. Un “je”, s’adressant à sa webcam, s’imagine des mondes habitables pour fuir le chaos destructeur qui l’entoure. Comme un appel dans la nuit, je te dis que je t’aime pour établir ma présence. Pour nous réunir je suis devenu pixel. Depuis que le monde a basculé, j’arrive à rester au présent grâce à cette course à relais d’images et d’espaces. Comme pour poser un geste concret dans un monde de plus en plus informe.",
         introTextEn: "Video windows open and close in",
         textEn:
           "an overlap of spaces. A character, addressing the webcam, imagines habitable worlds in order to escape the surrounding chaos. Like a calling at night, I tell you that I love you in order to feel my presence. To bring us together I have become pixels. Since this world has tipped over, I can stay in the present through this relay-course of images and spaces. As if to hook yourself to a moving mass. As if to do something real in a world that’s more and more shapeless.",
@@ -53,7 +53,7 @@ const initialData = {
         img: "./img/i_miss_grandma.png",
         alt:
           "A figure, wearing black, photographed in the process of falling onto a blue mat",
-        video: "https://player.vimeo.com/video/509609615",
+        video: "https://player.vimeo.com/video/546899256",
         videoTitle: "trailer",
         introTextFr: "Quel type de corps apparaît",
         textFr:

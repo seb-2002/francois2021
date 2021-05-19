@@ -22,7 +22,7 @@ const initialData = {
           "performance et installation numérique -- digital performance installation",
         statusEn: "premiere 05/2021 : ready for touring",
         statusFr: "première 05/2021 : prêt à tourner",
-        video: "https://player.vimeo.com/video/459501770",
+        video: "https://player.vimeo.com/video/546926710",
         videoTitle: "trailer",
         introTextFr: "Des fenêtres vidéo s’ouvrent",
         textFr:
@@ -52,7 +52,7 @@ const initialData = {
         img: "./img/i_miss_grandma.png",
         alt:
           "A figure, wearing black, photographed in the process of falling onto a blue mat",
-        video: "https://player.vimeo.com/video/509609615",
+        video: "https://player.vimeo.com/video/546899256",
         videoTitle: "trailer",
         introTextFr: "Quel type de corps apparaît",
         textFr:
