@@ -5,7 +5,7 @@ import {AiOutlineArrowDown} from 'react-icons/ai'
 import {useState} from 'react';
 
 function BoxContent(props) {
-  const {content, title, clickHandler, id} = props
+  const {content, clickHandler, id} = props
   const {
     flipside,
     header,

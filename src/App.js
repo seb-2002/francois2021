@@ -6,7 +6,7 @@ import initialData from "./data/data2";
 import useSiteData from "./hooks/useSiteData";
 
 function App() {
-  const { data, setData, boxClickHandler } = useSiteData(initialData);
+  const { data, boxClickHandler } = useSiteData(initialData);
 
   return (
     <div className="App">

@@ -19,7 +19,7 @@ export default function useSiteData(initialData) {
 
   useEffect(() => {
     setData(transformInitialData(initialData));
-  }, []);
+  }, [initialData]);
 
   function setSelected(index) {
     const { boxes } = data;
