@@ -103,19 +103,19 @@ const initialData = {
       },
     },
 
-    {
-      title: "media",
-      content: {
-        flipside: "à venir -- coming soon",
-      },
-    },
+    // {
+    //   title: "media",
+    //   content: {
+    //     flipside: "à venir -- coming soon",
+    //   },
+    // },
 
-    {
-      title: "agenda",
-      content: {
-        flipside: "à venir -- coming soon",
-      },
-    },
+    // {
+    //   title: "agenda",
+    //   content: {
+    //     flipside: "à venir -- coming soon",
+    //   },
+    // },
 
     {
       title: "bio",
